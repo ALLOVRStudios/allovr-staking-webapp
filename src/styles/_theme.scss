@@ -1,0 +1,127 @@
+// Color system
+//
+
+$gray-900: #121212;
+$white: #fff;
+$gray-800: #232323;
+$blue: lighten(#096EB0, 25%);
+$primary: $blue;
+$gray-700: #333333;
+$pink: #ff6caf;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$black: #000;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-600: #6c757d;
+$light: $gray-700;
+
+
+// Body
+//
+
+$body-bg: $gray-900;
+$body-color: $white;
+
+
+// Links
+//
+
+$link-color: $primary;
+$link-hover-color: lighten($link-color, 15%);
+
+
+// Tables
+//
+
+$table-bg: $gray-800;
+$table-border-color: $gray-700;
+
+
+// Forms
+//
+
+$input-color: $body-color;
+$input-placeholder-color: $gray-400;
+$input-disabled-bg: $gray-500;
+$input-border-color: $gray-600;
+$input-group-addon-bg: $gray-700;
+$input-bg: rgba($white, .125);
+
+
+// Navs
+//
+
+$nav-tabs-link-active-color: $gray-300;
+$nav-tabs-border-color: $gray-700;
+$nav-tabs-link-active-border-color: $nav-tabs-border-color $nav-tabs-border-color transparent;
+$nav-tabs-link-active-bg: $gray-700;
+$nav-tabs-link-hover-border-color: $gray-800 $gray-800 transparent;
+
+
+// Navbar
+//
+
+$navbar-light-color: rgba($white, .5);
+$navbar-light-hover-color: rgba($white, .7);
+$navbar-light-active-color: rgba($white, .9);
+$navbar-light-disabled-color: rgba($white, .3);
+$navbar-light-toggler-border-color: rgba($white, .1);
+
+
+// Pagination
+//
+
+$pagination-bg: $body-bg;
+$pagination-border-color: $gray-700;
+$pagination-hover-bg: $gray-800;
+$pagination-hover-border-color: $gray-700;
+$pagination-disabled-border-color: $gray-700;
+$pagination-disabled-bg: $body-bg;
+$pagination-disabled-color: $gray-400;
+
+
+// Jumbotron
+//
+
+$jumbotron-bg: $gray-700;
+
+
+// Cards
+//
+
+$card-bg: $gray-800;
+$card-cap-bg: rgba($white, .03);
+$card-border-color: rgba($white, .125);
+
+
+// Modals
+//
+
+$modal-content-bg: $gray-800;
+$modal-header-border-color: $gray-700;
+
+
+// List group
+//
+
+$list-group-border-color: rgba($white, .125);
+$list-group-bg: $gray-700;
+$list-group-hover-bg: $gray-600;
+$list-group-action-color: $gray-200;
+$list-group-action-active-bg: $gray-500;
+
+
+// Image thumbnails
+//
+
+$thumbnail-border-color: $gray-700;
+
+
+// Close
+//
+
+$close-color: $body-color;
+$close-text-shadow: 0 1px 0 $black;
+
+
